@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+c000000005230693500000000000000A9
+t1378904373
+s169
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies147516b5a0e0b741^0beb1ab5a0e0b741^---0#1#0#--18"Check dependencies36"18818F9B-0571-4A18-8AA2-B765FD324465-
+
+CPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+s400597173.106609
+e400597173.180264
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'a8901fb5a0e0b741^96252eb5a0e0b741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-400597173#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-400597173#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-400597173#86#95#-0#-----0#0#0#--281"PhaseScriptExecution "CMake Rules" mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Debug/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh36"FB828196-C4CA-4818-8D03-9E3515223F9F-
+

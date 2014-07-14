@@ -1,0 +1,1043 @@
+TmapTest
+v6
+r1
+cCheck dependencies
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c00000000523CA35000000000000004B3
+t1379705680
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000523CA35000000000000001DE
+t1379705680
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c000000005214EBC600000000000066C2
+t1377102790
+s26306
+
+N/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp
+c00000000522F0E1D0000000000000534
+t1378815517
+s1332
+i"HDEController.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/HDEController.h
+c00000000522F0A110000000000000245
+t1378814481
+s581
+i<iostream>
+
+N/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp
+c00000000523DAF250000000000000CF2
+t1379774245
+s3314
+i"ImageSet.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h
+c00000000523AE67000000000000003C8
+t1379591792
+s968
+i<cv.h>
+i<highgui.h>
+i<iostream>
+i<string>
+i<fstream>
+i"wallElement.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest
+t2
+s0
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Step.cpp
+c00000000523ADCA700000000000002AD
+t1379589287
+s685
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Step.h
+c00000000523ADB050000000000000193
+t1379588869
+s403
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp
+c00000000522D908E0000000000000133
+t1378717838
+s307
+i"Stride.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Stride.h
+c00000000000000000000000000000000
+t2
+s0
+i<iostream>
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp
+c000000005230528E0000000000001195
+t1378898574
+s4501
+i"Trilateration.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h
+c0000000052302C3E0000000000000320
+t1378888766
+s800
+i<iostream>
+i"accessPoint.h"
+i<list>
+i<fstream>
+i<iterator>
+i<cmath>
+i<gsl/gsl_randist.h>
+
+N/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp
+c0000000052302C3E000000000000022A
+t1378888766
+s554
+i"accessPoint.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h
+c0000000052302C3E00000000000001F5
+t1378888766
+s501
+i<iostream>
+i<string>
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o
+t1379778611
+s3956
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o
+t1379778612
+s9524
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o
+t1379778611
+s2144
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o
+t1378904215
+s1872
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o
+t1379778611
+s11620
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o
+t1379778612
+s3848
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.LinkFileList
+c00000000523ABB970000000000000457
+t1379580823
+s1111
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o
+t1379778613
+s16360
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o
+t1379778613
+s5468
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o
+t1379778612
+s1984
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o
+t1379778613
+s14824
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o
+t1379778613
+s1944
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-003FF11CFECC4A59BC95B5A6.sh
+c00000000523067F500000000000000A0
+t1378904053
+s160
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-26625FA9D6DB4F348E92A1BD.sh
+c000000005230682B00000000000000A0
+t1378904107
+s160
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-71ECE459608B4145A2832426.sh
+c00000000523ABB9700000000000000A0
+t1379580823
+s160
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp
+c00000000523DC02D0000000000002649
+t1379778605
+s9801
+i"ImageSet.h"
+i"sensorData.h"
+i"HDEController.h"
+i<sstream>
+i<iterator>
+
+N/Users/zhangzhao/Hecate/sources/mapTest/particle.cpp
+c00000000523DB7B90000000000000AF3
+t1379776441
+s2803
+
+N/Users/zhangzhao/Hecate/sources/mapTest/particle.h
+c00000000523AE72F0000000000000296
+t1379591983
+s662
+
+N/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp
+c0000000052399C2600000000000001B3
+t1379507238
+s435
+
+N/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h
+c0000000052399EC000000000000001A5
+t1379507904
+s421
+
+N/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp
+c00000000523ADAE70000000000002056
+t1379588839
+s8278
+i<math.h>
+i"sensorData.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/sensorData.h
+c00000000523ADAEC000000000000057F
+t1379588844
+s1407
+i<iostream>
+i<fstream>
+i<list>
+i<iterator>
+i"Stride.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp
+c0000000052240AE30000000000000135
+t1378093795
+s309
+i"wallElement.h"
+
+N/Users/zhangzhao/Hecate/sources/mapTest/wallElement.h
+c000000005223D984000000000000017C
+t1378081156
+s380
+i<iostream>
+
+N/usr/local/include/gsl/gsl_errno.h
+c000000005230596D000000000000174D
+t1378900333
+s5965
+
+N/usr/local/include/gsl/gsl_inline.h
+c000000005230596F000000000000099F
+t1378900335
+s2463
+
+N/usr/local/include/gsl/gsl_randist.h
+c000000005230596D000000000000219F
+t1378900333
+s8607
+
+N/usr/local/include/gsl/gsl_rng.h
+c000000005230596D0000000000001B2D
+t1378900333
+s6957
+
+N/usr/local/include/gsl/gsl_types.h
+c000000005230596F000000000000047D
+t1378900335
+s1149
+
+N/usr/local/include/opencv/cv.h
+c0000000051DD4A2C0000000000000D6F
+t1373456940
+s3439
+
+N/usr/local/include/opencv/highgui.h
+c0000000051DD4A2C0000000000000902
+t1373456940
+s2306
+
+N/usr/local/include/opencv2/calib3d/calib3d.hpp
+c0000000051DD4A2C0000000000009303
+t1373456940
+s37635
+
+N/usr/local/include/opencv2/core/core.hpp
+c0000000051DD4A2C000000000002D73C
+t1373456940
+s186172
+
+N/usr/local/include/opencv2/core/core_c.h
+c0000000051DD4A2C0000000000013298
+t1373456940
+s78488
+
+N/usr/local/include/opencv2/core/internal.hpp
+c0000000051DD4A2C00000000000087A4
+t1373456940
+s34724
+
+N/usr/local/include/opencv2/core/mat.hpp
+c0000000051DD4A2C0000000000013A5A
+t1373456940
+s80474
+
+N/usr/local/include/opencv2/core/operations.hpp
+c0000000051DD4A2C000000000001F855
+t1373456940
+s129109
+
+N/usr/local/include/opencv2/core/types_c.h
+c0000000051DD4A2C000000000000E041
+t1373456940
+s57409
+
+N/usr/local/include/opencv2/core/version.hpp
+c0000000051DD4A2C0000000000000B70
+t1373456940
+s2928
+
+N/usr/local/include/opencv2/features2d/features2d.hpp
+c0000000051DD4A2C000000000000F914
+t1373456940
+s63764
+
+N/usr/local/include/opencv2/flann/all_indices.h
+c0000000051DD4A2C0000000000001743
+t1373456940
+s5955
+
+N/usr/local/include/opencv2/flann/allocator.h
+c0000000051DD4A2C00000000000017B1
+t1373456940
+s6065
+
+N/usr/local/include/opencv2/flann/any.h
+c0000000051DD4A2C0000000000001D5F
+t1373456940
+s7519
+
+N/usr/local/include/opencv2/flann/autotuned_index.h
+c0000000051DD4A2C000000000000507F
+t1373456940
+s20607
+
+N/usr/local/include/opencv2/flann/composite_index.h
+c0000000051DD4A2C0000000000001764
+t1373456940
+s5988
+
+N/usr/local/include/opencv2/flann/config.h
+c0000000051DD4A2C00000000000006FD
+t1373456940
+s1789
+
+N/usr/local/include/opencv2/flann/defines.h
+c0000000051DD4A2C000000000000124B
+t1373456940
+s4683
+
+N/usr/local/include/opencv2/flann/dist.h
+c0000000051DD4A2C000000000000624B
+t1373456940
+s25163
+
+N/usr/local/include/opencv2/flann/dynamic_bitset.h
+c0000000051DD4A2C00000000000011EE
+t1373456940
+s4590
+
+N/usr/local/include/opencv2/flann/flann.hpp
+c0000000051DD4A2C0000000000004413
+t1373456940
+s17427
+
+N/usr/local/include/opencv2/flann/flann_base.hpp
+c0000000051DD4A2C00000000000022B2
+t1373456940
+s8882
+
+N/usr/local/include/opencv2/flann/general.h
+c0000000051DD4A2C00000000000007F4
+t1373456940
+s2036
+
+N/usr/local/include/opencv2/flann/ground_truth.h
+c0000000051DD4A2C0000000000000CE7
+t1373456940
+s3303
+
+N/usr/local/include/opencv2/flann/heap.h
+c0000000051DD4A2C000000000000100F
+t1373456940
+s4111
+
+N/usr/local/include/opencv2/flann/hierarchical_clustering_index.h
+c0000000051DD4A2C0000000000005431
+t1373456940
+s21553
+
+N/usr/local/include/opencv2/flann/index_testing.h
+c0000000051DD4A2C0000000000002A39
+t1373456940
+s10809
+
+N/usr/local/include/opencv2/flann/kdtree_index.h
+c0000000051DD4A2C0000000000004CE6
+t1373456940
+s19686
+
+N/usr/local/include/opencv2/flann/kdtree_single_index.h
+c0000000051DD4A2C0000000000004ED0
+t1373456940
+s20176
+
+N/usr/local/include/opencv2/flann/kmeans_index.h
+c0000000051DD4A2C00000000000086DE
+t1373456940
+s34526
+
+N/usr/local/include/opencv2/flann/linear_index.h
+c0000000051DD4A2C0000000000000E75
+t1373456940
+s3701
+
+N/usr/local/include/opencv2/flann/logger.h
+c0000000051DD4A2C0000000000000E85
+t1373456940
+s3717
+
+N/usr/local/include/opencv2/flann/lsh_index.h
+c0000000051DD4A2C0000000000003CC0
+t1373456940
+s15552
+
+N/usr/local/include/opencv2/flann/lsh_table.h
+c0000000051DD4A2C0000000000004618
+t1373456940
+s17944
+
+N/usr/local/include/opencv2/flann/matrix.h
+c0000000051DD4A2C0000000000000CD6
+t1373456940
+s3286
+
+N/usr/local/include/opencv2/flann/miniflann.hpp
+c0000000051DD4A2C0000000000001785
+t1373456940
+s6021
+
+N/usr/local/include/opencv2/flann/nn_index.h
+c0000000051DD4A2C00000000000017BB
+t1373456940
+s6075
+
+N/usr/local/include/opencv2/flann/params.h
+c0000000051DD4A2C0000000000000C60
+t1373456940
+s3168
+
+N/usr/local/include/opencv2/flann/random.h
+c0000000051DD4A2C0000000000000E6E
+t1373456940
+s3694
+
+N/usr/local/include/opencv2/flann/result_set.h
+c0000000051DD4A2C0000000000003A63
+t1373456940
+s14947
+
+N/usr/local/include/opencv2/flann/sampling.h
+c0000000051DD4A2C0000000000000B21
+t1373456940
+s2849
+
+N/usr/local/include/opencv2/flann/saving.h
+c0000000051DD4A2C0000000000001692
+t1373456940
+s5778
+
+N/usr/local/include/opencv2/flann/timer.h
+c0000000051DD4A2C0000000000000989
+t1373456940
+s2441
+
+N/usr/local/include/opencv2/highgui/highgui.hpp
+c0000000051DD4A2C00000000000023CA
+t1373456940
+s9162
+
+N/usr/local/include/opencv2/highgui/highgui_c.h
+c0000000051DD4A2C00000000000066C9
+t1373456940
+s26313
+
+N/usr/local/include/opencv2/imgproc/imgproc.hpp
+c0000000051DD4A2C000000000000DA60
+t1373456940
+s55904
+
+N/usr/local/include/opencv2/imgproc/imgproc_c.h
+c0000000051DD4A2C000000000000767F
+t1373456940
+s30335
+
+N/usr/local/include/opencv2/imgproc/types_c.h
+c0000000051DD4A2C0000000000004038
+t1373456940
+s16440
+
+N/usr/local/include/opencv2/legacy/compat.hpp
+c0000000051DD4A2C000000000000758B
+t1373456940
+s30091
+
+N/usr/local/include/opencv2/objdetect/objdetect.hpp
+c0000000051DD4A2C00000000000091B7
+t1373456940
+s37303
+
+N/usr/local/include/opencv2/video/tracking.hpp
+c0000000051DD4A2C00000000000047FF
+t1373456940
+s18431
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp
+r0
+
+CBuild AST from /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies87a589b2f7edb741^98198ab2f7edb741^---0#1#1#--18"Check dependencies36"11F5C1DA-19FB-46DC-BAC1-31D5E0381AF5-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471410.541326
+e401471411.419569
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o
+x/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/HDEController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp162"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o HDEController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler80b58ab2f7edb741^8c9e6bb3f7edb741^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp0000000000000000^2149"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o HDEController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.dia -c /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o36"AAB3A939-E524-4B43-AED3-1788B24189C4-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597014.515495
+e400597015.265221
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o
+x/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cppd2198416a0e0b741^8ae44317a0e0b741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp0000000000000000^1143"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o HDEController.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o36"61530B9F-BABD-4835-A83A-FF9A5699D1A3-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471410.541341
+e401471412.863094
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o
+x/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h
+d/Users/zhangzhao/Hecate/sources/mapTest/wallElement.h
+d/Users/zhangzhao/Hecate/sources/mapTest/Constants.h
+d/usr/local/include/opencv/cv.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc_c.h
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/video/tracking.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+d/usr/local/include/opencv2/flann/flann.hpp
+d/usr/local/include/opencv2/flann/flann_base.hpp
+d/usr/local/include/opencv2/flann/general.h
+d/usr/local/include/opencv2/flann/matrix.h
+d/usr/local/include/opencv2/flann/params.h
+d/usr/local/include/opencv2/flann/any.h
+d/usr/local/include/opencv2/flann/saving.h
+d/usr/local/include/opencv2/flann/nn_index.h
+d/usr/local/include/opencv2/flann/result_set.h
+d/usr/local/include/opencv2/flann/all_indices.h
+d/usr/local/include/opencv2/flann/kdtree_index.h
+d/usr/local/include/opencv2/flann/dynamic_bitset.h
+d/usr/local/include/opencv2/flann/dist.h
+d/usr/local/include/opencv2/flann/heap.h
+d/usr/local/include/opencv2/flann/allocator.h
+d/usr/local/include/opencv2/flann/random.h
+d/usr/local/include/opencv2/flann/kdtree_single_index.h
+d/usr/local/include/opencv2/flann/kmeans_index.h
+d/usr/local/include/opencv2/flann/logger.h
+d/usr/local/include/opencv2/flann/composite_index.h
+d/usr/local/include/opencv2/flann/linear_index.h
+d/usr/local/include/opencv2/flann/hierarchical_clustering_index.h
+d/usr/local/include/opencv2/flann/lsh_index.h
+d/usr/local/include/opencv2/flann/lsh_table.h
+d/usr/local/include/opencv2/flann/autotuned_index.h
+d/usr/local/include/opencv2/flann/ground_truth.h
+d/usr/local/include/opencv2/flann/index_testing.h
+d/usr/local/include/opencv2/flann/timer.h
+d/usr/local/include/opencv2/flann/sampling.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/objdetect/objdetect.hpp
+d/usr/local/include/opencv2/legacy/compat.hpp
+d/usr/local/include/opencv2/core/internal.hpp
+d/usr/local/include/opencv/highgui.h
+d/usr/local/include/opencv2/highgui/highgui_c.h
+d/usr/local/include/opencv2/highgui/highgui.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp152"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler45b78ab2f7edb741^5c1cddb4f7edb741^---0#0#1#-19%DVTDocumentLocation2@68"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp0000000000000000^2119"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.dia -c /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o36"BC2A9324-40C1-448C-8454-3051B0D8E4EC-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597014.515501
+e400597016.850209
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o
+x/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp371a8416a0e0b741^b5a6d918a0e0b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp0000000000000000^1123"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o ImageSet.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o36"8B2E81E1-575D-4734-BEEB-D9737317BBC1-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471410.541552
+e401471411.419015
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o
+x/Users/zhangzhao/Hecate/sources/mapTest/Step.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/Step.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/Step.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp144"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o Step.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler19c58ab2f7edb741^42436bb3f7edb741^---0#0#1#-19%DVTDocumentLocation2@64"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/Step.cpp0000000000000000^2095"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o Step.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.dia -c /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Step.o36"967D00B4-2C97-41E3-A5D8-3AAC88430972-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o /Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400596853.734714
+e400596854.464444
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o
+x/Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/zhangzhao/Hecate/sources/mapTest/Stride.cppea3ebc759fe0b741^79e576769fe0b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp0000000000000000^2033"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o Stride.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.dia -c /Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o36"EA54A782-3AA6-4589-AF9B-AB3ED8131EB3-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o /Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597014.515507
+e400597015.239325
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o
+x/Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/zhangzhao/Hecate/sources/mapTest/Stride.cppce1a8416a0e0b741^d0433d17a0e0b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp0000000000000000^1115"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o Stride.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/Stride.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o36"539702D2-A6DB-45EA-A73C-83A5FEEDCC55-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471410.542075
+e401471411.500688
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o
+x/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h
+d/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h
+d/usr/local/include/gsl/gsl_randist.h
+d/usr/local/include/gsl/gsl_rng.h
+d/usr/local/include/gsl/gsl_types.h
+d/usr/local/include/gsl/gsl_errno.h
+d/usr/local/include/gsl/gsl_inline.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp162"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercfd98ab2f7edb741^0a6680b3f7edb741^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp0000000000000000^2149"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.dia -c /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o36"F94821DC-991F-480D-AC25-0325CA85515E-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597014.515703
+e400597015.548381
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o
+x/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp60208416a0e0b741^fa618c17a0e0b741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp0000000000000000^1143"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o Trilateration.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o36"4A248852-623E-45C0-A3FB-9A9370480C72-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471411.420560
+e401471412.010003
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o
+x/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp158"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercdcd6bb3f7edb741^5c5502b4f7edb741^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp0000000000000000^2137"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.dia -c /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o36"136EB9A5-5B42-4C70-BD6C-B6B8E1EC516F-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597015.240786
+e400597015.884839
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o
+x/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cppacc73d17a0e0b741^1684e217a0e0b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp0000000000000000^1135"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o accessPoint.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o36"884D4A2E-9250-43B0-B6DF-9B7CB47FCE7F-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471411.421419
+e401471414.005024
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h
+d/Users/zhangzhao/Hecate/sources/mapTest/wallElement.h
+d/Users/zhangzhao/Hecate/sources/mapTest/Constants.h
+d/usr/local/include/opencv/cv.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc_c.h
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/video/tracking.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+d/usr/local/include/opencv2/flann/flann.hpp
+d/usr/local/include/opencv2/flann/flann_base.hpp
+d/usr/local/include/opencv2/flann/general.h
+d/usr/local/include/opencv2/flann/matrix.h
+d/usr/local/include/opencv2/flann/params.h
+d/usr/local/include/opencv2/flann/any.h
+d/usr/local/include/opencv2/flann/saving.h
+d/usr/local/include/opencv2/flann/nn_index.h
+d/usr/local/include/opencv2/flann/result_set.h
+d/usr/local/include/opencv2/flann/all_indices.h
+d/usr/local/include/opencv2/flann/kdtree_index.h
+d/usr/local/include/opencv2/flann/dynamic_bitset.h
+d/usr/local/include/opencv2/flann/dist.h
+d/usr/local/include/opencv2/flann/heap.h
+d/usr/local/include/opencv2/flann/allocator.h
+d/usr/local/include/opencv2/flann/random.h
+d/usr/local/include/opencv2/flann/kdtree_single_index.h
+d/usr/local/include/opencv2/flann/kmeans_index.h
+d/usr/local/include/opencv2/flann/logger.h
+d/usr/local/include/opencv2/flann/composite_index.h
+d/usr/local/include/opencv2/flann/linear_index.h
+d/usr/local/include/opencv2/flann/hierarchical_clustering_index.h
+d/usr/local/include/opencv2/flann/lsh_index.h
+d/usr/local/include/opencv2/flann/lsh_table.h
+d/usr/local/include/opencv2/flann/autotuned_index.h
+d/usr/local/include/opencv2/flann/ground_truth.h
+d/usr/local/include/opencv2/flann/index_testing.h
+d/usr/local/include/opencv2/flann/timer.h
+d/usr/local/include/opencv2/flann/sampling.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/objdetect/objdetect.hpp
+d/usr/local/include/opencv2/legacy/compat.hpp
+d/usr/local/include/opencv2/core/internal.hpp
+d/usr/local/include/opencv/highgui.h
+d/usr/local/include/opencv2/highgui/highgui_c.h
+d/usr/local/include/opencv2/highgui/highgui.hpp
+d/Users/zhangzhao/Hecate/sources/mapTest/sensorData.h
+d/Users/zhangzhao/Hecate/sources/mapTest/Step.h
+d/Users/zhangzhao/Hecate/sources/mapTest/HDEController.h
+d/Users/zhangzhao/Hecate/sources/mapTest/particle.h
+d/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h
+d/usr/local/include/gsl/gsl_rng.h
+d/usr/local/include/gsl/gsl_types.h
+d/usr/local/include/gsl/gsl_errno.h
+d/usr/local/include/gsl/gsl_inline.h
+d/usr/local/include/gsl/gsl_randist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp150"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o mapTest.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler15036cb3f7edb741^0a4a01b6f7edb741^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp0000000000000000^2113"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o mapTest.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.dia -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o36"B8B0C8EB-821C-4F16-8025-651BB6C9BE7C-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597015.290712
+e400597017.127497
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp488c4a17a0e0b741^a5a32019a0e0b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp0000000000000000^1119"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o mapTest.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o36"5ACB5664-F72C-4647-8915-92FFD152465D-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471411.502255
+e401471413.844876
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o
+x/Users/zhangzhao/Hecate/sources/mapTest/particle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/particle.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/particle.h
+d/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h
+d/Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h
+d/Users/zhangzhao/Hecate/sources/mapTest/wallElement.h
+d/Users/zhangzhao/Hecate/sources/mapTest/Constants.h
+d/usr/local/include/opencv/cv.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc_c.h
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/video/tracking.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+d/usr/local/include/opencv2/flann/flann.hpp
+d/usr/local/include/opencv2/flann/flann_base.hpp
+d/usr/local/include/opencv2/flann/general.h
+d/usr/local/include/opencv2/flann/matrix.h
+d/usr/local/include/opencv2/flann/params.h
+d/usr/local/include/opencv2/flann/any.h
+d/usr/local/include/opencv2/flann/saving.h
+d/usr/local/include/opencv2/flann/nn_index.h
+d/usr/local/include/opencv2/flann/result_set.h
+d/usr/local/include/opencv2/flann/all_indices.h
+d/usr/local/include/opencv2/flann/kdtree_index.h
+d/usr/local/include/opencv2/flann/dynamic_bitset.h
+d/usr/local/include/opencv2/flann/dist.h
+d/usr/local/include/opencv2/flann/heap.h
+d/usr/local/include/opencv2/flann/allocator.h
+d/usr/local/include/opencv2/flann/random.h
+d/usr/local/include/opencv2/flann/kdtree_single_index.h
+d/usr/local/include/opencv2/flann/kmeans_index.h
+d/usr/local/include/opencv2/flann/logger.h
+d/usr/local/include/opencv2/flann/composite_index.h
+d/usr/local/include/opencv2/flann/linear_index.h
+d/usr/local/include/opencv2/flann/hierarchical_clustering_index.h
+d/usr/local/include/opencv2/flann/lsh_index.h
+d/usr/local/include/opencv2/flann/lsh_table.h
+d/usr/local/include/opencv2/flann/autotuned_index.h
+d/usr/local/include/opencv2/flann/ground_truth.h
+d/usr/local/include/opencv2/flann/index_testing.h
+d/usr/local/include/opencv2/flann/timer.h
+d/usr/local/include/opencv2/flann/sampling.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/objdetect/objdetect.hpp
+d/usr/local/include/opencv2/legacy/compat.hpp
+d/usr/local/include/opencv2/core/internal.hpp
+d/usr/local/include/opencv/highgui.h
+d/usr/local/include/opencv2/highgui/highgui_c.h
+d/usr/local/include/opencv2/highgui/highgui.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp152"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler99b980b3f7edb741^0e4ad8b5f7edb741^---0#0#1#-19%DVTDocumentLocation2@68"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/particle.cpp0000000000000000^2119"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.dia -c /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particle.o36"6A80F009-5706-41CF-B113-F8BCE3827AE4-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471412.011765
+e401471412.601049
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o
+x/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp168"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o particlePosition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler952803b4f7edb741^6de199b4f7edb741^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp0000000000000000^2167"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o particlePosition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.dia -c /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/particlePosition.o36"76619399-013B-40B0-ABCE-F9E7A529FD60-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471412.613260
+e401471413.740968
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o
+x/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/sensorData.h
+d/Users/zhangzhao/Hecate/sources/mapTest/Step.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp156"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o sensorData.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler70279db4f7edb741^4fb2bdb5f7edb741^---0#0#1#-19%DVTDocumentLocation2@70"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp0000000000000000^2131"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o sensorData.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.dia -c /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o36"5CBD5A06-7550-4E8A-92A7-90FAA3ED04E2-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597015.549729
+e400597016.561151
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o
+x/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp1edd8c17a0e0b741^5bb18f18a0e0b741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp0000000000000000^1131"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o sensorData.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o36"65022798-7125-4D81-8E2D-ED3AE8D9753D-
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401471412.864749
+e401471413.590045
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o
+x/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp
+d/Users/zhangzhao/Hecate/sources/mapTest/wallElement.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp158"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o wallElement.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb98addb4f7edb741^733097b5f7edb741^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp0000000000000000^2137"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o wallElement.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -MMD -MT dependencies -MF /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.d --serialize-diagnostics /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.dia -c /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o36"06A0EF4D-30C2-4CB6-A27D-2AC4FF3F2AFF-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CCompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s400597015.886201
+e400597016.392610
+r1
+xCompileC
+xmapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o
+x/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp7102e317a0e0b741^d2c36418a0e0b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp0000000000000000^1135"CompileC mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o wallElement.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 "-DCMAKE_INTDIR=\"Release\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -I/Users/zhangzhao/Hecate/sources/mapTest/Release/include -I/usr/local/include/opencv -I/usr/local/include -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources/x86_64 -I/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhangzhao/Hecate/sources/mapTest/Release -DNDEBUG -c /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp -o /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o36"7E4EA62D-3549-40C5-B71B-161E997E66A9-
+
+CLd /Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest normal x86_64
+s401471414.014147
+e401471414.035563
+r0
+xLd
+x/Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest
+xnormal
+xx86_64
+d/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.LinkFileList
+old: library not found for -lGSL
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Link /Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest32"Ld Release/mapTest normal x86_6489b603b6f7edb741^111a09b6f7edb741^-112"ld: library not found for -lGSLclang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@27"Library not found for -lGSL-401471414#0#32#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-401471414#32#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1603"Ld Release/mapTest normal x86_64    cd /Users/zhangzhao/Hecate/sources/mapTest    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/zhangzhao/Hecate/sources/mapTest/Release -F/Users/zhangzhao/Hecate/sources/mapTest/Release -filelist /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lGSL /usr/local/lib/libopencv_calib3d.dylib /usr/local/lib/libopencv_contrib.dylib /usr/local/lib/libopencv_core.dylib /usr/local/lib/libopencv_features2d.dylib /usr/local/lib/libopencv_flann.dylib /usr/local/lib/libopencv_gpu.dylib /usr/local/lib/libopencv_highgui.dylib /usr/local/lib/libopencv_imgproc.dylib /usr/local/lib/libopencv_legacy.dylib /usr/local/lib/libopencv_ml.dylib /usr/local/lib/libopencv_nonfree.dylib /usr/local/lib/libopencv_objdetect.dylib /usr/local/lib/libopencv_ocl.dylib /usr/local/lib/libopencv_photo.dylib /usr/local/lib/libopencv_stitching.dylib /usr/local/lib/libopencv_superres.dylib /usr/local/lib/libopencv_ts.dylib /usr/local/lib/libopencv_video.dylib /usr/local/lib/libopencv_videostab.dylib -Xlinker -dependency_info -Xlinker /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest_dependency_info.dat -o /Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest36"06F4409D-873F-42EA-AB7C-5BE34388924B-
+bF3F96F49-9126-4E72-91AE-AAF7A0C5FA60
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-003FF11CFECC4A59BC95B5A6.sh
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-26625FA9D6DB4F348E92A1BD.sh
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-71ECE459608B4145A2832426.sh
+r0
+
+CPhaseScriptExecution CMake\ PostBuild\ Rules /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Script-A34EE18258104A1A924C19D1.sh
+r0
+

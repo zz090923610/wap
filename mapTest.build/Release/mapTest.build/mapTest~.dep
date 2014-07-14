@@ -1,0 +1,9 @@
+ffffffffffffffffffffffffffffffff d601397226bb82b07902593e5c8d75db ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/Release/mapTest
+00000000522fd7ac0000000000000ac6 7fcabeb7a9f6174f87d05cd54e7a494b ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/mapTest.o
+0000000052245f9b00000000000009c5 b723e61688c87ed3b6d91681c24dd91b ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/ImageSet.o
+0000000052240ae30000000000000135 b38fc9294dc3ec2de7d2f5e1a8d41fd8 ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/wallElement.o
+000000005230668d0000000000002087 5018f6c492d8022339f15c6869f8f0ac ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/sensorData.o
+0000000052302c3e000000000000022a 97989d55546824780e74615ebb277f27 ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/accessPoint.o
+000000005230528e0000000000001195 934374f1a3db7c618dd3dcddc75ac84b ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Trilateration.o
+000000000000040c0000000000000771 23c28a315904fce4f8bc26a079fff3ef ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/HDEController.o
+00000000522d908e0000000000000133 ab74130456e3d2f32070fa949dadb0f0 ffffffffffffffffffffffffffffffff 0 /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/mapTest.build/Objects-normal/x86_64/Stride.o

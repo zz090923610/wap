@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.8)
+project( mapTest )
+find_package( OpenCV REQUIRED )
+find_package( GSL REQUIRED)
+
+add_executable( mapTest mapTest.cpp  ImageSet.cpp ImageSet.h wallElement.h wallElement.cpp sensorData.h sensorData.cpp Stride.h Stride.cpp HDEController.h HDEController.cpp accessPoint.h accessPoint.cpp Trilateration.h Trilateration.cpp)
+target_link_libraries( mapTest ${OpenCV_LIBS})
+
+target_link_libraries( mapTest  ${GSL_LIBS})

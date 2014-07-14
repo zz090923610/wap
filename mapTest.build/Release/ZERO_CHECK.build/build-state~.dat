@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+c00000000523067F500000000000000A9
+t1378904053
+s169
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies889e9c759fe0b741^45d5a3759fe0b741^---0#1#0#--18"Check dependencies36"8FE860B5-5C2E-4556-B78F-BEF274D67549-
+
+CPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+s400596853.641736
+e400596853.714097
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'3ee9a4759fe0b741^d1cdb6759fe0b741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-400596853#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-400596853#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-400596853#86#95#-0#-----0#0#0#--285"PhaseScriptExecution "CMake Rules" mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh36"973A30C0-52AD-4BD0-A9BD-91F848CF6154-
+

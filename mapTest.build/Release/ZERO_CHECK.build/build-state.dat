@@ -1,0 +1,83 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-2B6B26EE78E744F1804023BE.sh
+c00000000523ABB9700000000000000A9
+t1379580823
+s169
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh
+c00000000523DC03200000000000000A9
+t1379778610
+s169
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+c000000005230682B00000000000000A9
+t1378904107
+s169
+
+N/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+c00000000523067F500000000000000A9
+t1378904053
+s169
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies87345ab2f7edb741^529c63b2f7edb741^---0#1#1#--18"Check dependencies36"2859E8E3-9E03-4D45-8AD1-7617794F1627-
+
+CPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-2B6B26EE78E744F1804023BE.sh
+s401284787.079341
+e401284787.221022
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-2B6B26EE78E744F1804023BE.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'aa0e19b31eebb741^6f2f39b31eebb741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-401284787#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-401284787#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-401284787#86#95#-0#-----0#0#0#--285"PhaseScriptExecution "CMake Rules" mapTest.build/Release/ZERO_CHECK.build/Script-2B6B26EE78E744F1804023BE.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-2B6B26EE78E744F1804023BE.sh36"95D4EFB7-8C50-457C-A782-1074DFFF602C-
+
+CPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+s400597269.677183
+e400597269.749508
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'fd30ae15a1e0b741^59e0bf15a1e0b741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-400597269#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-400597269#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-400597269#86#95#-0#-----0#0#0#--285"PhaseScriptExecution "CMake Rules" mapTest.build/Release/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7035E914BB7140F1A8CCAB1E.sh36"B7B4108C-63C4-4970-A417-F84ED0678E58-
+
+CPhaseScriptExecution "CMake Rules" /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+s400596853.641736
+e400596853.714097
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'3ee9a4759fe0b741^d1cdb6759fe0b741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-400596853#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-400596853#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-400596853#86#95#-0#-----0#0#0#--285"PhaseScriptExecution "CMake Rules" mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-7260EABA25934267A836DBEA.sh36"973A30C0-52AD-4BD0-A9BD-91F848CF6154-
+
+CPhaseScriptExecution CMake\ Rules /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh
+s401471410.378717
+e401471410.519454
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh
+oecho ""
+o
+omake -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'107"PhaseScriptExecution CMake\ Rules mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh0a2d63b2f7edb741^cefa84b2f7edb741^-181"echo ""make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.makemake[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-401471410#0#8#-0#-----2@77"make -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ReRunCMake.make-401471410#9#77#-0#-----2@95"make[1]: `/Users/zhangzhao/Hecate/sources/mapTest/CMakeFiles/cmake.check_cache' is up to date.-401471410#86#95#-0#-----0#0#1#--284"PhaseScriptExecution CMake\ Rules mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh    cd /Users/zhangzhao/Hecate/sources/mapTest    /bin/sh -c /Users/zhangzhao/Hecate/sources/mapTest/mapTest.build/Release/ZERO_CHECK.build/Script-4BB61E14E1514A16BA101000.sh36"7A1EC55B-086F-49FF-A6DB-56CA85B7581D-
+bC9A595ED-BC38-4B1B-BC17-B90F7D0EF782
+

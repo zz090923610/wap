@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              E7B8EED8E8DD4162BEC30C5F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 627A686AD07C4AE8A983E8DC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            19CA362006E24F26A0510D48 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            DABFDB7C32EC4FE9A8AE7BB7 /* PBXTargetDependency */,
+                            54E6D6D2077C4947B00F3EC5 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              78C966F1E6244974B6477069 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C948729F8F65437990A12D5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            2D79AB9B43EA451DBA074FD1 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+AF9B227BFD5948BEBF7D5875 /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DD966298B7A4466993A5881A /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+049496BBCA6E47B4995F1ED1 /* /Users/zhangzhao/Hecate/sources/mapTest/Constants.h */ = {isa = PBXBuildFile; fileRef = B20AFCE683C64F67A1F216A6 /* /Users/zhangzhao/Hecate/sources/mapTest/Constants.h */; settings = { COMPILER_FLAGS = ""; }; };
+C759D118DB5B45F9BB9ECE55 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp */ = {isa = PBXBuildFile; fileRef = BBBBA9C7085346C1A0DFD960 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CA1B4F40D2BF46389D170546 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.h */ = {isa = PBXBuildFile; fileRef = 5565AEB828214030B272E39D /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.h */; settings = { COMPILER_FLAGS = ""; }; };
+D4A83E8F421047E5BAB90EE7 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp */ = {isa = PBXBuildFile; fileRef = 66C031B029BB4970A7E134B9 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B242265A1275464DBEB3FAD3 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h */ = {isa = PBXBuildFile; fileRef = 2C2C69E45BC9435FBBA93B71 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h */; settings = { COMPILER_FLAGS = ""; }; };
+CE48897D2FCE493F87F43E24 /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.cpp */ = {isa = PBXBuildFile; fileRef = 7F57D5D2EB394ED29AF221DE /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F8010EB6B1134C0BA248CB48 /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.h */ = {isa = PBXBuildFile; fileRef = 34B58918A27943929F25FFBA /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.h */; settings = { COMPILER_FLAGS = ""; }; };
+E4B9FC9A043042C2A8A707C4 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp */ = {isa = PBXBuildFile; fileRef = EEFA8452C1A549F88BBDF887 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D50FB76D61FF460B8CBD960D /* /Users/zhangzhao/Hecate/sources/mapTest/Step.h */ = {isa = PBXBuildFile; fileRef = FC91EA29A99149F9BB1D54F8 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.h */; settings = { COMPILER_FLAGS = ""; }; };
+DCA3B3C0DF424ABC9C174D8B /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp */ = {isa = PBXBuildFile; fileRef = D3A86255329944A095076ECD /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+77859AB9E6744E89A15400E8 /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h */ = {isa = PBXBuildFile; fileRef = 5C788CD5BF8A4F2D900EC905 /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h */; settings = { COMPILER_FLAGS = ""; }; };
+03CA7FEBA5494E1B979F6D14 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp */ = {isa = PBXBuildFile; fileRef = 64236A221B3A44DEA9A5B5AC /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A1D81B5B8ABF4F64A099EDB0 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h */ = {isa = PBXBuildFile; fileRef = 8B5DE16E6ACA4AF4B746E537 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h */; settings = { COMPILER_FLAGS = ""; }; };
+7ECA7B3B666A448BB1A90D4F /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.cpp */ = {isa = PBXBuildFile; fileRef = 51317D74F91C40E997380EF6 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+08115571981F4BF381B60B4F /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.h */ = {isa = PBXBuildFile; fileRef = 11D59C703E374466A04C6970 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.h */; settings = { COMPILER_FLAGS = ""; }; };
+4DC3C6F3C4D3430CA8714754 /* /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp */ = {isa = PBXBuildFile; fileRef = 437D150BF92D45A79CDAFC22 /* /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+64637A0CAF5244ECAAAA98F2 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp */ = {isa = PBXBuildFile; fileRef = 9C0F452AD18348AFBF5DBCB4 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7F9B02F38E5F43E6A65DD2E3 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.h */ = {isa = PBXBuildFile; fileRef = 8E90AD503BCD4DEBBA739DFE /* /Users/zhangzhao/Hecate/sources/mapTest/particle.h */; settings = { COMPILER_FLAGS = ""; }; };
+5B25D32D8A154BD7AEFD0FD8 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp */ = {isa = PBXBuildFile; fileRef = 11A5C532326F445590B6569B /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6CAB4D4C4DC046EDBF5B3DE8 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h */ = {isa = PBXBuildFile; fileRef = EFA588E4051A4E839FC4EDE0 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h */; settings = { COMPILER_FLAGS = ""; }; };
+2CC4E6F01829437C88C8D604 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.cpp */ = {isa = PBXBuildFile; fileRef = BC6F08B698F44FD5BC26D59C /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EEF3F0AA541949AF9DA78602 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.h */ = {isa = PBXBuildFile; fileRef = BB417510A2FB498EA71A7F43 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.h */; settings = { COMPILER_FLAGS = ""; }; };
+16FA999A951C41E4BDAFDBDB /* /Users/zhangzhao/Hecate/sources/mapTest/point.cpp */ = {isa = PBXBuildFile; fileRef = DC85357BFEA042F6BD0F65EE /* /Users/zhangzhao/Hecate/sources/mapTest/point.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+21028C7A682C47128D9DB09D /* /Users/zhangzhao/Hecate/sources/mapTest/point.h */ = {isa = PBXBuildFile; fileRef = 362EF6A01A4B4706ADF3E80E /* /Users/zhangzhao/Hecate/sources/mapTest/point.h */; settings = { COMPILER_FLAGS = ""; }; };
+E0A0A8A9CE52404FA24892F3 /* /Users/zhangzhao/Hecate/sources/mapTest/room.cpp */ = {isa = PBXBuildFile; fileRef = 1CCFDBA766B949A6BAC0CA4B /* /Users/zhangzhao/Hecate/sources/mapTest/room.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8195CF3D74824605B20D5338 /* /Users/zhangzhao/Hecate/sources/mapTest/room.h */ = {isa = PBXBuildFile; fileRef = 0C1D1F0F80CF4EA68D589F60 /* /Users/zhangzhao/Hecate/sources/mapTest/room.h */; settings = { COMPILER_FLAGS = ""; }; };
+D035C5FF9D9948CA9A2C867C /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp */ = {isa = PBXBuildFile; fileRef = 4F329DC7E61F45A7831BD1C1 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+002620F618624FC2B3867A7E /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.h */ = {isa = PBXBuildFile; fileRef = 9AEA3178B5984B84A11C29A5 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.h */; settings = { COMPILER_FLAGS = ""; }; };
+668CDF555B514F6E9C7D6766 /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp */ = {isa = PBXBuildFile; fileRef = 681196E3AC7C4D74B2E842B1 /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3DE7BFF230E4489DBA64244F /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.h */ = {isa = PBXBuildFile; fileRef = D7BB10878F554105B63BF25B /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.h */; settings = { COMPILER_FLAGS = ""; }; };
+5E6F2949D1B34FDD9CC4F50A /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.cpp */ = {isa = PBXBuildFile; fileRef = C93AD45CDE5C4E3D8A61E746 /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C130608DDE43483BB4D2EA7F /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.h */ = {isa = PBXBuildFile; fileRef = 039E39D94EFB443AA60B9D2E /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              FEF594686EFE42B0841BBE67 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              FFD1370405B846BC95DDAA98 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2310DB39742C46C6B7CAD710 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              28AB62B4E8E54C9AB83E5CDB /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              751187FB253A40AAA8B15802 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              CB9500DC77FF495EBA99EBF7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 481B3F2713E94AF7B4C2DE83 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 78C966F1E6244974B6477069;
+                     remoteInfo = ZERO_CHECK;
+              };
+              3265B41D4A784E30AA4898D1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 481B3F2713E94AF7B4C2DE83 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 4D67FD1F399F455287723BA5;
+                     remoteInfo = mapTest;
+              };
+              E62A2E61CA1446A1BD575AF8 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 481B3F2713E94AF7B4C2DE83 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 78C966F1E6244974B6477069;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+DD966298B7A4466993A5881A /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B20AFCE683C64F67A1F216A6 /* /Users/zhangzhao/Hecate/sources/mapTest/Constants.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "Constants.h"; path = "Constants.h"; sourceTree = SOURCE_ROOT; };
+BBBBA9C7085346C1A0DFD960 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "HDEController.cpp"; path = "HDEController.cpp"; sourceTree = SOURCE_ROOT; };
+5565AEB828214030B272E39D /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "HDEController.h"; path = "HDEController.h"; sourceTree = SOURCE_ROOT; };
+66C031B029BB4970A7E134B9 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ImageSet.cpp"; path = "ImageSet.cpp"; sourceTree = SOURCE_ROOT; };
+2C2C69E45BC9435FBBA93B71 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ImageSet.h"; path = "ImageSet.h"; sourceTree = SOURCE_ROOT; };
+7F57D5D2EB394ED29AF221DE /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ProbTableElement.cpp"; path = "ProbTableElement.cpp"; sourceTree = SOURCE_ROOT; };
+34B58918A27943929F25FFBA /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ProbTableElement.h"; path = "ProbTableElement.h"; sourceTree = SOURCE_ROOT; };
+EEFA8452C1A549F88BBDF887 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Step.cpp"; path = "Step.cpp"; sourceTree = SOURCE_ROOT; };
+FC91EA29A99149F9BB1D54F8 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "Step.h"; path = "Step.h"; sourceTree = SOURCE_ROOT; };
+D3A86255329944A095076ECD /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Trilateration.cpp"; path = "Trilateration.cpp"; sourceTree = SOURCE_ROOT; };
+5C788CD5BF8A4F2D900EC905 /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "Trilateration.h"; path = "Trilateration.h"; sourceTree = SOURCE_ROOT; };
+64236A221B3A44DEA9A5B5AC /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "accessPoint.cpp"; path = "accessPoint.cpp"; sourceTree = SOURCE_ROOT; };
+8B5DE16E6ACA4AF4B746E537 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "accessPoint.h"; path = "accessPoint.h"; sourceTree = SOURCE_ROOT; };
+51317D74F91C40E997380EF6 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "apStatus.cpp"; path = "apStatus.cpp"; sourceTree = SOURCE_ROOT; };
+11D59C703E374466A04C6970 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "apStatus.h"; path = "apStatus.h"; sourceTree = SOURCE_ROOT; };
+437D150BF92D45A79CDAFC22 /* /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "mapTest.cpp"; path = "mapTest.cpp"; sourceTree = SOURCE_ROOT; };
+9C0F452AD18348AFBF5DBCB4 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "particle.cpp"; path = "particle.cpp"; sourceTree = SOURCE_ROOT; };
+8E90AD503BCD4DEBBA739DFE /* /Users/zhangzhao/Hecate/sources/mapTest/particle.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "particle.h"; path = "particle.h"; sourceTree = SOURCE_ROOT; };
+11A5C532326F445590B6569B /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "particlePosition.cpp"; path = "particlePosition.cpp"; sourceTree = SOURCE_ROOT; };
+EFA588E4051A4E839FC4EDE0 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "particlePosition.h"; path = "particlePosition.h"; sourceTree = SOURCE_ROOT; };
+BC6F08B698F44FD5BC26D59C /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "pixel.cpp"; path = "pixel.cpp"; sourceTree = SOURCE_ROOT; };
+BB417510A2FB498EA71A7F43 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pixel.h"; path = "pixel.h"; sourceTree = SOURCE_ROOT; };
+DC85357BFEA042F6BD0F65EE /* /Users/zhangzhao/Hecate/sources/mapTest/point.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "point.cpp"; path = "point.cpp"; sourceTree = SOURCE_ROOT; };
+362EF6A01A4B4706ADF3E80E /* /Users/zhangzhao/Hecate/sources/mapTest/point.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "point.h"; path = "point.h"; sourceTree = SOURCE_ROOT; };
+1CCFDBA766B949A6BAC0CA4B /* /Users/zhangzhao/Hecate/sources/mapTest/room.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "room.cpp"; path = "room.cpp"; sourceTree = SOURCE_ROOT; };
+0C1D1F0F80CF4EA68D589F60 /* /Users/zhangzhao/Hecate/sources/mapTest/room.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "room.h"; path = "room.h"; sourceTree = SOURCE_ROOT; };
+4F329DC7E61F45A7831BD1C1 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sensorData.cpp"; path = "sensorData.cpp"; sourceTree = SOURCE_ROOT; };
+9AEA3178B5984B84A11C29A5 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "sensorData.h"; path = "sensorData.h"; sourceTree = SOURCE_ROOT; };
+681196E3AC7C4D74B2E842B1 /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "wallElement.cpp"; path = "wallElement.cpp"; sourceTree = SOURCE_ROOT; };
+D7BB10878F554105B63BF25B /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "wallElement.h"; path = "wallElement.h"; sourceTree = SOURCE_ROOT; };
+C93AD45CDE5C4E3D8A61E746 /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "wifiVector.cpp"; path = "wifiVector.cpp"; sourceTree = SOURCE_ROOT; };
+039E39D94EFB443AA60B9D2E /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "wifiVector.h"; path = "wifiVector.h"; sourceTree = SOURCE_ROOT; };
+79EDEABAFA684DA7B3F70CD3 /* mapTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = mapTest; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              5250F269433843CF8DF261EF  = {
+                     isa = PBXGroup;
+                     children = (
+                            A20D46B557F941BC8827C93C /* Sources */,
+                            3C84B956BA0F44F48192AA8D /* Resources */,
+                            B4132594F32F4594BF712680 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              A20D46B557F941BC8827C93C /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1FC17C9F889E435EA46D9BFB /* ALL_BUILD */,
+                            DFCE94C5ABD04C4385D4ACFE /* ZERO_CHECK */,
+                            ADCD9855C06C4D6A9847FD9C /* mapTest */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              3C84B956BA0F44F48192AA8D /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              1FC17C9F889E435EA46D9BFB /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A6A133C2F41D47D2B4C7C413 /* CMake Rules */,
+                            DD966298B7A4466993A5881A /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              A6A133C2F41D47D2B4C7C413 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              DFCE94C5ABD04C4385D4ACFE /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FCCF4CF2818B4DA98432B4BC /* CMake Rules */,
+                            DD966298B7A4466993A5881A /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              FCCF4CF2818B4DA98432B4BC /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              ADCD9855C06C4D6A9847FD9C /* mapTest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9860327FD4D44C87AF439B3F /* Source Files */,
+                            5E5A6B00166E4821BF5CE0EF /* Header Files */,
+                            DD966298B7A4466993A5881A /* /Users/zhangzhao/Hecate/sources/mapTest/CMakeLists.txt */,
+                     );
+                     name = mapTest;
+                     sourceTree = "<group>";
+              };
+              9860327FD4D44C87AF439B3F /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BBBBA9C7085346C1A0DFD960 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp */,
+                            66C031B029BB4970A7E134B9 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp */,
+                            7F57D5D2EB394ED29AF221DE /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.cpp */,
+                            EEFA8452C1A549F88BBDF887 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp */,
+                            D3A86255329944A095076ECD /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp */,
+                            64236A221B3A44DEA9A5B5AC /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp */,
+                            51317D74F91C40E997380EF6 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.cpp */,
+                            437D150BF92D45A79CDAFC22 /* /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp */,
+                            9C0F452AD18348AFBF5DBCB4 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp */,
+                            11A5C532326F445590B6569B /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp */,
+                            BC6F08B698F44FD5BC26D59C /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.cpp */,
+                            DC85357BFEA042F6BD0F65EE /* /Users/zhangzhao/Hecate/sources/mapTest/point.cpp */,
+                            1CCFDBA766B949A6BAC0CA4B /* /Users/zhangzhao/Hecate/sources/mapTest/room.cpp */,
+                            4F329DC7E61F45A7831BD1C1 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp */,
+                            681196E3AC7C4D74B2E842B1 /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp */,
+                            C93AD45CDE5C4E3D8A61E746 /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              5E5A6B00166E4821BF5CE0EF /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B20AFCE683C64F67A1F216A6 /* /Users/zhangzhao/Hecate/sources/mapTest/Constants.h */,
+                            5565AEB828214030B272E39D /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.h */,
+                            2C2C69E45BC9435FBBA93B71 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.h */,
+                            34B58918A27943929F25FFBA /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.h */,
+                            FC91EA29A99149F9BB1D54F8 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.h */,
+                            5C788CD5BF8A4F2D900EC905 /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.h */,
+                            8B5DE16E6ACA4AF4B746E537 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.h */,
+                            11D59C703E374466A04C6970 /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.h */,
+                            8E90AD503BCD4DEBBA739DFE /* /Users/zhangzhao/Hecate/sources/mapTest/particle.h */,
+                            EFA588E4051A4E839FC4EDE0 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.h */,
+                            BB417510A2FB498EA71A7F43 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.h */,
+                            362EF6A01A4B4706ADF3E80E /* /Users/zhangzhao/Hecate/sources/mapTest/point.h */,
+                            0C1D1F0F80CF4EA68D589F60 /* /Users/zhangzhao/Hecate/sources/mapTest/room.h */,
+                            9AEA3178B5984B84A11C29A5 /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.h */,
+                            D7BB10878F554105B63BF25B /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.h */,
+                            039E39D94EFB443AA60B9D2E /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              B4132594F32F4594BF712680 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            79EDEABAFA684DA7B3F70CD3 /* mapTest */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              4D67FD1F399F455287723BA5 /* mapTest */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 293FBF02933E43779A86C5A4 /* Build configuration list for PBXNativeTarget "mapTest" */;
+                     buildPhases = (
+                            E010A5F6AFA54B83B6B164CD /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            5A00A88AB147415D967F1A34 /* PBXTargetDependency */,
+                     );
+                     name = mapTest;
+                     productName = mapTest;
+                     productReference = 79EDEABAFA684DA7B3F70CD3 /* mapTest */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              481B3F2713E94AF7B4C2DE83 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 7DC469DF9B9B4520A819A509 /* Build configuration list for PBXProject  "mapTest" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            FFD1370405B846BC95DDAA98 /* Debug */,
+                            2310DB39742C46C6B7CAD710 /* Release */,
+                            28AB62B4E8E54C9AB83E5CDB /* MinSizeRel */,
+                            751187FB253A40AAA8B15802 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 5250F269433843CF8DF261EF;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            E7B8EED8E8DD4162BEC30C5F /* ALL_BUILD */,
+                            78C966F1E6244974B6477069 /* ZERO_CHECK */,
+                            4D67FD1F399F455287723BA5 /* mapTest */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              F2B5C6C35D0649FA8354AA04 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              19CA362006E24F26A0510D48 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangzhao/Hecate/sources/mapTest -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              72C610A5887340099E2DCEA8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              2D79AB9B43EA451DBA074FD1 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangzhao/Hecate/sources/mapTest -f /Users/zhangzhao/Hecate/sources/mapTest/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              E010A5F6AFA54B83B6B164CD /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C759D118DB5B45F9BB9ECE55 /* /Users/zhangzhao/Hecate/sources/mapTest/HDEController.cpp */,
+                            D4A83E8F421047E5BAB90EE7 /* /Users/zhangzhao/Hecate/sources/mapTest/ImageSet.cpp */,
+                            CE48897D2FCE493F87F43E24 /* /Users/zhangzhao/Hecate/sources/mapTest/ProbTableElement.cpp */,
+                            E4B9FC9A043042C2A8A707C4 /* /Users/zhangzhao/Hecate/sources/mapTest/Step.cpp */,
+                            DCA3B3C0DF424ABC9C174D8B /* /Users/zhangzhao/Hecate/sources/mapTest/Trilateration.cpp */,
+                            03CA7FEBA5494E1B979F6D14 /* /Users/zhangzhao/Hecate/sources/mapTest/accessPoint.cpp */,
+                            7ECA7B3B666A448BB1A90D4F /* /Users/zhangzhao/Hecate/sources/mapTest/apStatus.cpp */,
+                            4DC3C6F3C4D3430CA8714754 /* /Users/zhangzhao/Hecate/sources/mapTest/mapTest.cpp */,
+                            64637A0CAF5244ECAAAA98F2 /* /Users/zhangzhao/Hecate/sources/mapTest/particle.cpp */,
+                            5B25D32D8A154BD7AEFD0FD8 /* /Users/zhangzhao/Hecate/sources/mapTest/particlePosition.cpp */,
+                            2CC4E6F01829437C88C8D604 /* /Users/zhangzhao/Hecate/sources/mapTest/pixel.cpp */,
+                            16FA999A951C41E4BDAFDBDB /* /Users/zhangzhao/Hecate/sources/mapTest/point.cpp */,
+                            E0A0A8A9CE52404FA24892F3 /* /Users/zhangzhao/Hecate/sources/mapTest/room.cpp */,
+                            D035C5FF9D9948CA9A2C867C /* /Users/zhangzhao/Hecate/sources/mapTest/sensorData.cpp */,
+                            668CDF555B514F6E9C7D6766 /* /Users/zhangzhao/Hecate/sources/mapTest/wallElement.cpp */,
+                            5E6F2949D1B34FDD9CC4F50A /* /Users/zhangzhao/Hecate/sources/mapTest/wifiVector.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              DABFDB7C32EC4FE9A8AE7BB7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 78C966F1E6244974B6477069 /* ZERO_CHECK */;
+                     targetProxy = CB9500DC77FF495EBA99EBF7 /* PBXContainerItemProxy */;
+              };
+              54E6D6D2077C4947B00F3EC5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 4D67FD1F399F455287723BA5 /* mapTest */;
+                     targetProxy = 3265B41D4A784E30AA4898D1 /* PBXContainerItemProxy */;
+              };
+              5A00A88AB147415D967F1A34 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 78C966F1E6244974B6477069 /* ZERO_CHECK */;
+                     targetProxy = E62A2E61CA1446A1BD575AF8 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              9E88F42FA8DA4880A618525B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest/build;
+                     };
+                     name = Debug;
+              };
+              81947EC71F834205955A4CCF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest/build;
+                     };
+                     name = Release;
+              };
+              D5D54B143F234801A2419B34 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest/build;
+                     };
+                     name = MinSizeRel;
+              };
+              9722D722077E43DEB3BD1723 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              41966A4F855E4D16955BB251 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BC0A85268EE942BC8E8306D8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0F8DAE4DABD4427DBACB7981 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5C9436CD21D148719548ED50 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C229DD25E0AA42E19487FEB8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              19E9430C614344CC87AE2B27 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              499560FE3B8642F6909261BF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              906F91436DEB43D7B302C331 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E5DAA7F4DDE2443A8D53C4C8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgsl /usr/local/lib/libopencv_calib3d.dylib /usr/local/lib/libopencv_contrib.dylib /usr/local/lib/libopencv_core.dylib /usr/local/lib/libopencv_features2d.dylib /usr/local/lib/libopencv_flann.dylib /usr/local/lib/libopencv_highgui.dylib /usr/local/lib/libopencv_imgproc.dylib /usr/local/lib/libopencv_ml.dylib /usr/local/lib/libopencv_nonfree.dylib /usr/local/lib/libopencv_objdetect.dylib /usr/local/lib/libopencv_ocl.dylib /usr/local/lib/libopencv_photo.dylib /usr/local/lib/libopencv_stitching.dylib /usr/local/lib/libopencv_superres.dylib /usr/local/lib/libopencv_ts.dylib /usr/local/lib/libopencv_video.dylib /usr/local/lib/libopencv_videostab.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = mapTest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9A084AD668CB4BAAB3879F8B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgsl /usr/local/lib/libopencv_calib3d.dylib /usr/local/lib/libopencv_contrib.dylib /usr/local/lib/libopencv_core.dylib /usr/local/lib/libopencv_features2d.dylib /usr/local/lib/libopencv_flann.dylib /usr/local/lib/libopencv_highgui.dylib /usr/local/lib/libopencv_imgproc.dylib /usr/local/lib/libopencv_ml.dylib /usr/local/lib/libopencv_nonfree.dylib /usr/local/lib/libopencv_objdetect.dylib /usr/local/lib/libopencv_ocl.dylib /usr/local/lib/libopencv_photo.dylib /usr/local/lib/libopencv_stitching.dylib /usr/local/lib/libopencv_superres.dylib /usr/local/lib/libopencv_ts.dylib /usr/local/lib/libopencv_video.dylib /usr/local/lib/libopencv_videostab.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = mapTest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              25CF898BFA77484E9BA4514D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgsl /usr/local/lib/libopencv_calib3d.dylib /usr/local/lib/libopencv_contrib.dylib /usr/local/lib/libopencv_core.dylib /usr/local/lib/libopencv_features2d.dylib /usr/local/lib/libopencv_flann.dylib /usr/local/lib/libopencv_highgui.dylib /usr/local/lib/libopencv_imgproc.dylib /usr/local/lib/libopencv_ml.dylib /usr/local/lib/libopencv_nonfree.dylib /usr/local/lib/libopencv_objdetect.dylib /usr/local/lib/libopencv_ocl.dylib /usr/local/lib/libopencv_photo.dylib /usr/local/lib/libopencv_stitching.dylib /usr/local/lib/libopencv_superres.dylib /usr/local/lib/libopencv_ts.dylib /usr/local/lib/libopencv_video.dylib /usr/local/lib/libopencv_videostab.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = mapTest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              1C7687C88B7C4530B37FBD14 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgsl /usr/local/lib/libopencv_calib3d.dylib /usr/local/lib/libopencv_contrib.dylib /usr/local/lib/libopencv_core.dylib /usr/local/lib/libopencv_features2d.dylib /usr/local/lib/libopencv_flann.dylib /usr/local/lib/libopencv_highgui.dylib /usr/local/lib/libopencv_imgproc.dylib /usr/local/lib/libopencv_ml.dylib /usr/local/lib/libopencv_nonfree.dylib /usr/local/lib/libopencv_objdetect.dylib /usr/local/lib/libopencv_ocl.dylib /usr/local/lib/libopencv_photo.dylib /usr/local/lib/libopencv_stitching.dylib /usr/local/lib/libopencv_superres.dylib /usr/local/lib/libopencv_ts.dylib /usr/local/lib/libopencv_video.dylib /usr/local/lib/libopencv_videostab.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = mapTest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangzhao/Hecate/sources/mapTest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              7DC469DF9B9B4520A819A509 /* Build configuration list for PBXProject  "mapTest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9E88F42FA8DA4880A618525B /* Debug */,
+                            81947EC71F834205955A4CCF /* Release */,
+                            D5D54B143F234801A2419B34 /* MinSizeRel */,
+                            9722D722077E43DEB3BD1723 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              627A686AD07C4AE8A983E8DC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            41966A4F855E4D16955BB251 /* Debug */,
+                            BC0A85268EE942BC8E8306D8 /* Release */,
+                            0F8DAE4DABD4427DBACB7981 /* MinSizeRel */,
+                            5C9436CD21D148719548ED50 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C948729F8F65437990A12D5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C229DD25E0AA42E19487FEB8 /* Debug */,
+                            19E9430C614344CC87AE2B27 /* Release */,
+                            499560FE3B8642F6909261BF /* MinSizeRel */,
+                            906F91436DEB43D7B302C331 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              293FBF02933E43779A86C5A4 /* Build configuration list for PBXNativeTarget "mapTest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E5DAA7F4DDE2443A8D53C4C8 /* Debug */,
+                            9A084AD668CB4BAAB3879F8B /* Release */,
+                            25CF898BFA77484E9BA4514D /* MinSizeRel */,
+                            1C7687C88B7C4530B37FBD14 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 481B3F2713E94AF7B4C2DE83;
+}

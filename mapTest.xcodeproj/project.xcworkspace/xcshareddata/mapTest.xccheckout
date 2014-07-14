@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D565829-BBA7-4E0A-9E55-75E42090320D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mapTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4CBE13B-7819-48CF-8A12-7811F6D6D188</key>
+		<string>ssh://github.com/CanceR-Proj-Group/Hecate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sources/mapTest/mapTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4CBE13B-7819-48CF-8A12-7811F6D6D188</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/CanceR-Proj-Group/Hecate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4CBE13B-7819-48CF-8A12-7811F6D6D188</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4CBE13B-7819-48CF-8A12-7811F6D6D188</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hecate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
