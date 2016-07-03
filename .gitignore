@@ -1,5 +1,8 @@
 dl/
 .idea/
+CMakeFiles/
+
+
 
 # Compiled Object files
 *.slo
