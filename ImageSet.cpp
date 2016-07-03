@@ -16,6 +16,7 @@ ImageSet::ImageSet()
 	this ->canvas = NULL;
 	this->grayMap = NULL;
 	this->doorPosMap = NULL;
+	this->params = Constants();
 
 }//end of InageSet()
 
@@ -27,7 +28,7 @@ ImageSet::ImageSet(string fileName)
 	this ->canvas = NULL;
 	this->grayMap = NULL;
 	this->doorPosMap = NULL;
-
+	this->params = Constants();
 }//end of ImageSet(string fileName)
 
 ImageSet::~ImageSet()
@@ -79,10 +80,10 @@ void ImageSet::loadMap(string path)
 	for(int loop = 0; loop < this->wallNumber; loop ++)
 	{
 		fin >>this->mapData[loop].topLeftX >>this->mapData[loop].topLeftY >>this->mapData[loop].downRightX >>this->mapData[loop].downRightY;
-		this->mapData[loop].topLeftX /= ZOOM_SCALE;
-		this->mapData[loop].topLeftY /= ZOOM_SCALE;
-		this->mapData[loop].downRightX /= ZOOM_SCALE;
-		this->mapData[loop].downRightY /= ZOOM_SCALE;
+		this->mapData[loop].topLeftX /= this->params.zoom_scale;
+		this->mapData[loop].topLeftY /= this->params.zoom_scale;
+		this->mapData[loop].downRightX /= this->params.zoom_scale;
+		this->mapData[loop].downRightY /= this->params.zoom_scale;
 		if(this->mapData[loop].downRightX > this->height) this->height = this->mapData[loop].downRightX;
 		if(this->mapData[loop].downRightY > this->width) this->width = this->mapData[loop].downRightY;
 		

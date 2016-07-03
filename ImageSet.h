@@ -45,6 +45,7 @@ public:
 	IplImage * canvas;
 	int ** grayMap;
 	int ** doorPosMap;
+	Constants params;
 
 
 	

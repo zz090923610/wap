@@ -34,6 +34,7 @@ long timeStampStart = 0;
 long timeStampStop = 0;
 bool specialStatus = false;
 point* WifiResult = new point(0,0);
+Constants params;
 
 
 std::list<particle> particleList;
@@ -126,11 +127,11 @@ int main (int argc, const char * argv [])
 	
 	/////////////////////MAP LOAD PART//////////////////////////
 	
-	string mapFileName = "mapData.txt";
+	string map_file_path = "mapData.txt";
 	std::cout<<"######## Hello, now is MAP LOAD PART ############\n";
 	ImageSet map;
-	map.loadMap(mapFileName);
-	map.loadDoorPosMap(ROOM_LIST_PATH);
+	map.loadMap(map_file_path);
+	map.loadDoorPosMap(params.room_list_path);
 	for(int i = 0; i < map.wallNumber; i++)		std::cout<<map.mapData[i].topLeftX<<" "<<map.mapData[i].topLeftY<<" "<<map.mapData[i].downRightX<<" "<<map.mapData[i].downRightY<<"\n";
 	map.loadCanvas(map.height, map.width,CV_8UC1);
 	std::cout<<map.height<<" "<<map.width<<std::endl;
@@ -175,7 +176,7 @@ int main (int argc, const char * argv [])
 	 }*/
 	{
 		cv::Mat  toShow = map.canvas;
-		cv::Mat resized(map.height / ZOOM_SCALE * 2,map.width / ZOOM_SCALE * 2,CV_32F);
+		cv::Mat resized(map.height / params.zoom_scale * 2,map.width / params.zoom_scale * 2,CV_32F);
 		cv::resize(toShow,resized,resized.size());
 		imshow("Map B 3 ", resized);
 		cv::waitKey(100);
@@ -266,7 +267,7 @@ int main (int argc, const char * argv [])
 	
 	////////////////////PARTICLE FILTER PART///////////////////////////
 	std::cout<<"######## START OF PARTICLE FILTER PART ############\n";
-	//currentX = STARTPOSITIONX, currentY = STARTPOSITIONY;
+	//currentX = start_pos_x, currentY = start_pos_y;
 	std::cout<<"oriengal position set to "<<currentX
 	<<" "<<currentY<<"\n";
 	map.drawMap();
@@ -276,7 +277,7 @@ int main (int argc, const char * argv [])
 	addPosAndParticlesToCanvas(currentX, currentY, &particleList, &map);
 	
 	cv::Mat toShow = map.canvas;
-	cv::Mat resized(map.height / ZOOM_SCALE * 2,map.width / ZOOM_SCALE * 2,CV_32F);
+	cv::Mat resized(map.height / params.zoom_scale * 2,map.width / params.zoom_scale * 2,CV_32F);
 	cv::resize(toShow,resized,resized.size());
 	imshow("Map B 3 ", resized);
 	cleanPixelsFromCanvas(&map);
@@ -287,7 +288,7 @@ int main (int argc, const char * argv [])
 	{
 //system("clear");
 		addEnoughParticles(&map);
-		stepLength = it->StepLength * ZOOM_SCALE * ZOOM_SCALE;
+		stepLength = it->StepLength * params.zoom_scale * params.zoom_scale;
 		timeStampStart = it->StepStart ,timeStampStop = it->StepStop;
 		updateParticlesPosition(&map, &particleList, stepLength  ,it->orientation ,it->StepStart * 25);
 		ori = orientation [it->StepStart];
@@ -297,7 +298,7 @@ int main (int argc, const char * argv [])
 		//std::cout<<it->StepStop * 25<<"\n";
 		addPosAndParticlesToCanvas(currentX, currentY, &particleList, &map);
 		cv::Mat  toShow = map.canvas;
-		cv::Mat resized(map.height / ZOOM_SCALE * 2,map.width / ZOOM_SCALE * 2,CV_32F);
+		cv::Mat resized(map.height / params.zoom_scale * 2,map.width / params.zoom_scale * 2,CV_32F);
 		cv::resize(toShow,resized,resized.size());
 		imshow("Map B 3 ", resized);
 		cleanPixelsFromCanvas(&map);
@@ -314,7 +315,7 @@ int main (int argc, const char * argv [])
 		addTraceLineToCanvas(&map);
 		
 		cv::Mat  toShow = map.canvas;
-		cv::Mat resized(map.height / ZOOM_SCALE * 2,map.width / ZOOM_SCALE * 2,CV_32F);
+		cv::Mat resized(map.height / params.zoom_scale * 2,map.width / params.zoom_scale * 2,CV_32F);
 		cv::resize(toShow,resized,resized.size());
 		//cleanPosAndParticles(currentX, currentY, &particleList, &map);
 		imshow("Map B 3 ", resized);
@@ -367,19 +368,19 @@ int countLiveParticles()
 
 void addEnoughParticlesFirstTime(ImageSet * map)
 {
-	if(PARTICLE_NUMBER == 0)return ;
+	if(params.particle_number == 0)return ;
 	
 	std::cout<<"######ADDING NEW PARTICLES#####\n";
 	countLiveParticles();
 	gsl_rng * r = gsl_rng_alloc (gsl_rng_taus);
 	std::cout<<"CUrrent x y "<<currentX<<" "<<currentY<<"\n";
-	if(particleList.size() < PARTICLE_NUMBER)
+	if(particleList.size() < params.particle_number)
 	{
 		std::cout<<"here\n";
-		for(int loop = 0; loop < PARTICLE_NUMBER - particleCount; loop ++ )
+		for(int loop = 0; loop < params.particle_number - particleCount; loop ++ )
 		{
-			double distance = gsl_rng_uniform(r) * CIRCUS;
-//			double distance = gsl_ran_ugaussian (r) * CIRCUS;
+			double distance = gsl_rng_uniform(r) * params.circus;
+//			double distance = gsl_ran_ugaussian (r) * circus;
 			int angle = gsl_rng_uniform(r) * 180;
 			int tempX = currentX - sin(angle) * distance;
 			int tempY = currentY + cos(angle) * distance;
@@ -409,8 +410,8 @@ void addEnoughParticlesFirstTime(ImageSet * map)
 		std::list<particle>::iterator it;
 		for(it = particleList.begin(); it != particleList.end();it ++)
 		{
-			double distance = gsl_rng_uniform(r) * CIRCUS;
-			//			double distance = gsl_ran_ugaussian (r) * CIRCUS;
+			double distance = gsl_rng_uniform(r) * params.circus;
+			//			double distance = gsl_ran_ugaussian (r) * circus;
 			int angle = gsl_rng_uniform(r) * 180;
 			int tempX = currentX - sin(angle) * distance;
 			int tempY = currentY + cos(angle) * distance;
@@ -442,12 +443,12 @@ void addEnoughParticlesFirstTime(ImageSet * map)
 void addEnoughParticles(ImageSet * map)
 {
 	
-	if(PARTICLE_NUMBER == 0)return ;
+	if(params.particle_number == 0)return ;
 	std::cout<<"######ADDING NEW PARTICLES#####\n";
 	generateProbTable();
 	countLiveParticles();
-	if(particleCount == PARTICLE_NUMBER) return;
-	if(particleCount > 5 * std::sqrt(PARTICLE_NUMBER)) return;
+	if(particleCount == params.particle_number) return;
+	if(particleCount > 5 * std::sqrt(params.particle_number)) return;
 	gsl_rng * r = gsl_rng_alloc (gsl_rng_taus);
 	std::list<particle>::iterator it;
 	for(it = particleList.begin(); it != particleList.end();it ++)
@@ -476,7 +477,7 @@ void addEnoughParticles(ImageSet * map)
 		int tempX = 0, tempY = 0;
 		while(!success)
 		{
-			double distance = gsl_ran_ugaussian (r) * CIRCUS;
+			double distance = gsl_ran_ugaussian (r) * params.circus;
 			int angle = gsl_rng_uniform(r) * 180;
 			tempX = selectedPosX - sin(angle) * distance;
 			tempY = selectedPosY + cos(angle) * distance;
@@ -599,7 +600,7 @@ void addPosAndParticlesToCanvas(int currentX, int currentY, std::list<particle> 
 	CvScalar iter;
 	
 	
-	if(PARTICLE_NUMBER != 0)
+	if(params.particle_number != 0)
 	{
 	iter.val[0] = 200;
 	std::list<particle> :: iterator it;
@@ -849,7 +850,7 @@ void drawLine(int pt1x, int pt1y, int pt2x, int pt2y, ImageSet * map)
 void loadAllowedList()
 {
 	std::ifstream in;
-	in.open(ALLOWED_LIST_PATH , std::ios::in);
+	in.open(params.allowed_list_path.c_str() , std::ios::in);
 	if(!in.is_open())
 	{
 		std::cout<< "Wrong Path\n";
@@ -869,7 +870,7 @@ void loadAllowedList()
 void loadRoomList()
 {
 	std::ifstream in;
-	in.open(ROOM_LIST_PATH , std::ios::in);
+	in.open(params.room_list_path.c_str() , std::ios::in);
 	if(!in.is_open())
 	{
 		std::cout<< "Wrong Path\n";
@@ -1014,7 +1015,7 @@ std::string wifiRoomDiff(long timeStamp)
 	int checkCount = 0;
 	std::list<apStatus> :: iterator statusIterator;
 	if(!apStatusList.empty())
-	for(statusIterator = apStatusList.begin(); statusIterator != apStatusList.end() && checkCount < DELAY_TIME; statusIterator ++)
+	for(statusIterator = apStatusList.begin(); statusIterator != apStatusList.end() && checkCount < params.delay_time_val; statusIterator ++)
 	{
 		if(statusIterator->timeStamp < timeStamp)continue;
 		else{
@@ -1031,7 +1032,7 @@ std::string wifiRoomDiff(long timeStamp)
 						maxStrength = apIterator ->strength;
 					}
 				}
-				if(maxStrength > WIFI_ROOM_CHECH_THRESHOLD)
+				if(maxStrength > params.wifi_room_check_threshold)
 				{
 					std::list<room>:: iterator roomIterator ;
 					for(roomIterator= roomList.begin(); roomIterator!= roomList.end(); roomIterator++)
@@ -1337,7 +1338,7 @@ void WIFIPositioningProc(ImageSet * map)
 				addPointToCanvas(map, WifiResult->x , WifiResult->y );
 				/*
 				 cv::Mat  toShow = map->canvas;
-				 cv::Mat resized(map->height / ZOOM_SCALE * 2,map->width / ZOOM_SCALE * 2,CV_32F);
+				 cv::Mat resized(map->height / zoom_scale * 2,map->width / zoom_scale * 2,CV_32F);
 				 cv::resize(toShow,resized,resized.size());
 				 imshow("Map B 3 ", resized);
 				 cv::waitKey();*/
@@ -1390,7 +1391,7 @@ void WIFIPositioningProc(ImageSet * map)
 				addPointToCanvas(map, tempx , tempy );
 				/*
 				 cv::Mat  toShow = map->canvas;
-				 cv::Mat resized(map->height / ZOOM_SCALE * 2,map->width / ZOOM_SCALE * 2,CV_32F);
+				 cv::Mat resized(map->height / zoom_scale * 2,map->width / zoom_scale * 2,CV_32F);
 				 cv::resize(toShow,resized,resized.size());
 				 imshow("Map B 3 ", resized);
 				 cv::waitKey();*/

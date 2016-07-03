@@ -8,6 +8,9 @@ wap
 
 这一操作会通过apt-get 渠道安装需要的软件包，同时还有另外两个需要编译安装的依赖，分别为 gsl 和 opencv。
 理论上讲该脚本可以自动下载并安装 gsl 和 opencv 的源码包到 dl 目录内，如果下载十分缓慢，可自行下载以下两个文件并存放到 dl目录内再开始./init.sh
+理论上讲重新运行 init.sh 时，安装过的软件包就不需要再重新安装。如果需要强制重新安装所有软件包，可以加 force 参数。
+
+    sudo ./init.sh force
 
 d8f70abafd3e9f0bae03c52d1f4e8de5 ftp://ftp.gnu.org/gnu/gsl/gsl-2.1.tar.gz
 7f958389e71c77abdf5efe1da988b80c http://nbtelecom.dl.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.9/opencv-2.4.9.zip
