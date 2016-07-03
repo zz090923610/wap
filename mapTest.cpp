@@ -178,7 +178,7 @@ int main (int argc, const char * argv [])
 		cv::Mat resized(map.height / ZOOM_SCALE * 2,map.width / ZOOM_SCALE * 2,CV_32F);
 		cv::resize(toShow,resized,resized.size());
 		imshow("Map B 3 ", resized);
-		//cv::waitKey();
+		cv::waitKey(100);
 	}
 	
 	//////////////////END OF WIFI SENSOR PART////////////////////////
@@ -280,7 +280,7 @@ int main (int argc, const char * argv [])
 	cv::resize(toShow,resized,resized.size());
 	imshow("Map B 3 ", resized);
 	cleanPixelsFromCanvas(&map);
-	//cv::waitKey();
+	cv::waitKey(100);
 	
 	std::list<Step>:: iterator it;
 	for(it = asensordata.StepData.begin(); it!= asensordata.StepData.end(); it++)
@@ -302,13 +302,13 @@ int main (int argc, const char * argv [])
 		imshow("Map B 3 ", resized);
 		cleanPixelsFromCanvas(&map);
 		calc_last_distance();
-		//cv::waitKey();
+		cv::waitKey(100);
 		
 		
 		
 	}
 	std::cout<<"######## END OF PARTICLE FILTER PART ############\n";
-	std::cout<<"all steps are proceeded\n";
+	std::cout<<"all steps are proceeded, press any key to exit.\n";
 	{
 		map.drawMap();
 		addTraceLineToCanvas(&map);

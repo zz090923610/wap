@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project( mapTest )
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 find_package( OpenCV REQUIRED )
 find_package( gsl REQUIRED)
 
@@ -8,6 +9,7 @@ add_executable( mapTest mapTest.cpp Step.h Step.cpp ImageSet.cpp ImageSet.h wall
 
 
 target_link_libraries( mapTest  gsl)
+target_link_libraries( mapTest  gslcblas)
 target_link_libraries( mapTest ${OpenCV_LIBS})
 
-link_directories(/usr/lib /usr/local/lib /usr/local/cellar ~/Hecate/sources/mapTest/)
+link_directories(/usr/lib /usr/local/lib)
