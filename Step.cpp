@@ -29,7 +29,7 @@ Step::Step(int start, int stop)
 }
 
 
-void Step::calcOrientation(double *oriList)
+void Step::calcStepOrientation(double *oriList)
 {
 	/*
 	int aveOri = 0;

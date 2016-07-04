@@ -5,7 +5,6 @@
 #include <cstdlib>
 #include <cstring>
 #include <stdio.h>
-#include <syslog.h>
 #include "Constants.h"
 #include <iostream>
 

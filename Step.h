@@ -17,7 +17,7 @@ class Step{
 public:
 	Step();
 	Step(int start, int stop);
-	void calcOrientation(double * oriList);
+	void calcStepOrientation(double *oriList);
 	
 	int StepStart;
 	int StepStop;

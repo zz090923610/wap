@@ -40,7 +40,7 @@ Constants params;
 std::list<particle> particleList;
 std::list<pixel> pixelList;
 std::list<pixel> pointTrace;
-std::list<pixel> centerPointointTrace;
+std::list<pixel> centerPointTrace;
 std::list<accessPoint> AllowedList;
 std::list<accessPoint> allApList;
 std::list<apStatus> apStatusList;
@@ -53,6 +53,9 @@ void loadStartPoint(std::string path);
 //////////////////// IMU PART ////////////////////////////////////
 
 double calcOrientation(double orientation, double gyro, double deltaTime);
+
+// TODO mag ori function defined here
+double calcOrientationMag(double origination, double magX, double magY, double magZ);
 
 //////////////////// PF  PART ////////////////////////////////////
 int countLiveParticles();
@@ -222,6 +225,10 @@ int main (int argc, const char * argv [])
 	for(int loop = 1; loop < asensordata.row; loop ++)
 	{
 		orientation[loop] = calcOrientation(orientation[loop - 1],asensordata.data[loop][6], 0.025);
+		//TODO: if you want to enable mag way, uncomment following line and comment out above line
+		//orientation[loop] = calcOrientationMag(orientation[loop - 1], asensordata.data[loop][7],asensordata.data[loop][8],asensordata.data[loop][9]);
+		
+
 		/*if(loop * 25 >= 15800 && loop * 25 < 31675)
 		if(std::abs(orientation[loop]) > 3)
 		{
@@ -249,7 +256,7 @@ int main (int argc, const char * argv [])
 	std::cout<<"TimeStamp\t StartTime\tEndTime\tStepLength\tStepOrientation\n";
 	for(loop = asensordata.StepData.begin(); loop != asensordata.StepData.end(); loop ++)
 	{
-		loop->calcOrientation(orientation);
+		loop->calcStepOrientation(orientation);
 		std::cout<<loop->StepStart <<"\t"<<loop ->StepStop <<"\t"<<loop -> StepLength <<"\t"<< loop->orientation<<std::endl;
 	}
 	std::cout<<"######## END OF IMU ############\n";
@@ -341,6 +348,11 @@ double calcOrientation(double orientation, double gyro, double deltaTime)
 	return orientation + gyro * deltaTime * 180 / 3.14;
 }
 
+// TODO: calc ori mag way implementation comes here
+double calcOrientationMag(double origination, double magX, double magY, double magZ)
+{
+	return 0;
+}
 
 int countLiveParticles()
 {
@@ -633,7 +645,7 @@ void addPosAndParticlesToCanvas(int currentX, int currentY, std::list<particle> 
 	}
 	iter.val[0] = 0;
 	iter.val[1] = 0, iter.val[2] = 0, iter.val[3] = 0;
-	centerPointointTrace.push_back(pixel(currentX,currentY));
+	centerPointTrace.push_back(pixel(currentX,currentY));
 	for(int loopx = -10; loopx < 10; loopx ++)
 	{
 		for(int loopy = -10; loopy < 10; loopy ++)
@@ -665,9 +677,9 @@ CvScalar iter;
 	{
 		cvSet2D(map->canvas, pixelIterator->posX, pixelIterator->posY, iter);
 	}
-	pixelIterator = centerPointointTrace.begin();
+	pixelIterator = centerPointTrace.begin();
 	pixelIterator ++;
-	for(; pixelIterator != centerPointointTrace.end(); pixelIterator ++)
+	for(; pixelIterator != centerPointTrace.end(); pixelIterator ++)
 	{
 		drawLine(startX, startY, pixelIterator->posX, pixelIterator->posY, map);
 		startX =pixelIterator->posX;
