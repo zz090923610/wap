@@ -126,11 +126,10 @@ int main (int argc, const char * argv [])
 	
 	
 	/////////////////////MAP LOAD PART//////////////////////////
-	
-	string map_file_path = "mapData.txt";
+
 	std::cout<<"######## Hello, now is MAP LOAD PART ############\n";
 	ImageSet map;
-	map.loadMap(map_file_path);
+	map.loadMap(params.map_file_path);
 	map.loadDoorPosMap(params.room_list_path);
 	for(int i = 0; i < map.wallNumber; i++)		std::cout<<map.mapData[i].topLeftX<<" "<<map.mapData[i].topLeftY<<" "<<map.mapData[i].downRightX<<" "<<map.mapData[i].downRightY<<"\n";
 	map.loadCanvas(map.height, map.width,CV_8UC1);

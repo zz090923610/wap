@@ -6,6 +6,7 @@
 //
 //
 #include <string>
+
 #ifndef __mapTest__Constants__
 #define __mapTest__Constants__
 
@@ -14,7 +15,7 @@
 #define LEAVING -1
 #define APPEAR 2
 #define DISAPPEAR -2
-
+#define UCI_CFG_MAX_LEN 128
 
 
 
@@ -22,10 +23,11 @@ class Constants
 {
 public:
     Constants();
-    Constants(std::string file_path);
+    int load_uci_config_string(std :: string uci_path, std::string uci_cmd, std::string * string_to_set);
+    int load_uci_config_int(std :: string uci_path, std::string uci_cmd, int * num_to_set);
+
 
     int particle_number;
-    int start_pos_x, start_pos_y;
     int circus;
     int zoom_scale;
     int wifi_room_check_threshold;

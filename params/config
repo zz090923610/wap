@@ -1,0 +1,11 @@
+config setting vars
+	option particle_number 400
+	option circus 240
+	option zoom_scale 10
+	option wifi_room_check_threshold -50
+	option delay_time_val 24
+
+config settings paths
+	option allowed_list_path ./params/allowedList.txt
+	option room_list_path ./params/roomList.txt
+	option map_file_path ./params/mapData.txt
